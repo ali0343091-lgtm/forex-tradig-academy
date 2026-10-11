@@ -1,0 +1,230 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Academy Administrator",
+      "email": "ali0343091@gmail.com",
+      "phone": "03430919084",
+      "role": "admin",
+      "status": "approved",
+      "createdAt": "2026-10-11T20:43:56.825Z",
+      "approvedAt": "2026-10-11T20:43:56.825Z",
+      "passwordHash": "$2b$10$Y1jfE53b2QsK9ZmBiACaGuwQSbwv8xGCvM7bpwnYfiqPpbywUp2PW"
+    },
+    {
+      "id": "student-1791751443069-gp26",
+      "name": "Hamza Khan",
+      "email": "hamza@example.com",
+      "phone": "03001234567",
+      "role": "student",
+      "status": "approved",
+      "createdAt": "2026-10-11T20:44:03.069Z",
+      "passwordHash": "$2b$10$EPqf5Ay3engs/mxA7HPHY.VSn7M4cDg2Gc4nRW6e/ZasnZKAfCPKK",
+      "approvedAt": "2026-10-11T20:44:27.973Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-1791751458179-ho1o",
+      "userId": "student-1791751443069-gp26",
+      "studentName": "Hamza Khan",
+      "studentEmail": "hamza@example.com",
+      "method": "Easypaisa",
+      "amount": 15000,
+      "transactionRef": "TRX99283741",
+      "receiptFilename": "receipt-1791751458174-542480131.png",
+      "receiptOriginalName": "test-receipt.png",
+      "status": "approved",
+      "submittedAt": "2026-10-11T20:44:18.179Z",
+      "reviewedAt": "2026-10-11T20:44:27.973Z",
+      "reviewedBy": "ali0343091@gmail.com"
+    }
+  ],
+  "classes": [
+    {
+      "id": "lesson-1",
+      "title": "Lesson 1: Anatomy of Global Forex Markets & Broker Selection",
+      "description": "Learn how the $7.5 Trillion daily currency market operates, how tier-1 liquidity providers quote prices, and how to choose a reliable ECN broker without conflict of interest.",
+      "moduleTitle": "Module 1: Market Foundations & Mechanics",
+      "orderIndex": 1,
+      "durationMinutes": 45,
+      "sampleVideoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:43:56.706Z",
+      "updatedAt": "2026-10-11T20:43:56.706Z"
+    },
+    {
+      "id": "lesson-2",
+      "title": "Lesson 2: Calculating Pips, Lot Sizes, Leverage & True Margin",
+      "description": "Stop blowing accounts on bad sizing. Master the mathematical calculation of standard, mini, and micro lots, pip value across major/minor pairs, and real margin utilization.",
+      "moduleTitle": "Module 1: Market Foundations & Mechanics",
+      "orderIndex": 2,
+      "durationMinutes": 52,
+      "sampleVideoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:43:56.706Z",
+      "updatedAt": "2026-10-11T20:43:56.706Z"
+    },
+    {
+      "id": "lesson-3",
+      "title": "Lesson 3: The 4 Global Trading Sessions & High-Volume Overlaps",
+      "description": "When to enter and when to stay in cash. Detailed breakdown of Sydney, Tokyo, London, and New York sessions, plus the golden London-New York overlap.",
+      "moduleTitle": "Module 1: Market Foundations & Mechanics",
+      "orderIndex": 3,
+      "durationMinutes": 38,
+      "sampleVideoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:43:56.706Z",
+      "updatedAt": "2026-10-11T20:43:56.706Z"
+    },
+    {
+      "id": "lesson-4",
+      "title": "Lesson 4: Price Action & High-Probability Candlestick Patterns",
+      "description": "Read the raw chart without lagging indicators. Learn bullish & bearish engulfing wicks, pin bars at institutional levels, rejection candles, and momentum continuation.",
+      "moduleTitle": "Module 2: Institutional Price Action & Candlesticks",
+      "orderIndex": 4,
+      "durationMinutes": 64,
+      "sampleVideoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:43:56.706Z",
+      "updatedAt": "2026-10-11T20:43:56.706Z"
+    },
+    {
+      "id": "lesson-5",
+      "title": "Lesson 5: Institutional Market Structure, Order Blocks & FVG",
+      "description": "Understand how market makers manipulate liquidity. Identifying institutional Order Blocks (OB), Fair Value Gaps (FVG), Break of Structure (BOS), and Change of Character (CHoCH).",
+      "moduleTitle": "Module 2: Institutional Price Action & Candlesticks",
+      "orderIndex": 5,
+      "durationMinutes": 72,
+      "sampleVideoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:43:56.706Z",
+      "updatedAt": "2026-10-11T20:43:56.706Z"
+    },
+    {
+      "id": "lesson-6",
+      "title": "Lesson 6: High Liquidity Sweeps, Asian Range Raids & Inducements",
+      "description": "Why your stop loss gets hit right before the market moves your way. How to identify liquidity pools above equal highs and below equal lows, and trade the institutional sweep.",
+      "moduleTitle": "Module 2: Institutional Price Action & Candlesticks",
+      "orderIndex": 6,
+      "durationMinutes": 58,
+      "sampleVideoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:43:56.706Z",
+      "updatedAt": "2026-10-11T20:43:56.706Z"
+    },
+    {
+      "id": "lesson-7",
+      "title": "Lesson 7: The Ironclad 1% Rule & 1:3 Risk-to-Reward Blueprints",
+      "description": "The mathematical edge that guarantees survival and long-term compounding. Even with a 40% win rate, why strict 1:3 risk-to-reward creates consistently profitable traders.",
+      "moduleTitle": "Module 3: Risk Management & Trading Psychology",
+      "orderIndex": 7,
+      "durationMinutes": 50,
+      "sampleVideoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:43:56.706Z",
+      "updatedAt": "2026-10-11T20:43:56.706Z"
+    },
+    {
+      "id": "lesson-8",
+      "title": "Lesson 8: Mastering Psychology: Eliminating FOMO, Revenge Trading & Greed",
+      "description": "Trading is 80% psychology and 20% technicals. Developing cognitive stamina, embracing losses as operational expenses, and following an unshakeable trade routine.",
+      "moduleTitle": "Module 3: Risk Management & Trading Psychology",
+      "orderIndex": 8,
+      "durationMinutes": 44,
+      "sampleVideoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:43:56.706Z",
+      "updatedAt": "2026-10-11T20:43:56.706Z"
+    },
+    {
+      "id": "lesson-9",
+      "title": "Lesson 9: Complete Trading Plan, Execution Journal & Live Checklist",
+      "description": "Putting it all together. The pre-market routine, economic calendar risk filter, live trade checklist, and the step-by-step spreadsheet journaling process to track your edge.",
+      "moduleTitle": "Module 3: Risk Management & Trading Psychology",
+      "orderIndex": 9,
+      "durationMinutes": 60,
+      "sampleVideoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackSeeTheWorld.mp4",
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:43:56.706Z",
+      "updatedAt": "2026-10-11T20:43:56.706Z"
+    },
+    {
+      "id": "class-1791751478360-smkc",
+      "title": "Lesson 10: Live London Breakout Strategy",
+      "description": "Institutional forex class covering actionable trading setups.",
+      "moduleTitle": "Module 4: Live Market Execution",
+      "orderIndex": 10,
+      "videoFilename": "video-1791751478342-488758969.mp4",
+      "durationMinutes": 55,
+      "isPublished": true,
+      "createdAt": "2026-10-11T20:44:38.360Z",
+      "updatedAt": "2026-10-11T20:44:38.360Z"
+    }
+  ],
+  "settings": {
+    "academyName": "FOREX TRADING ACADEMY",
+    "tagline": "Learn. Practice. Trade with Discipline.",
+    "originalPrice": 50000,
+    "discountedPrice": 15000,
+    "currency": "PKR",
+    "easypaisaNumber": "03135279108",
+    "easypaisaAccountTitle": "Forex Trading Academy",
+    "jazzcashNumber": "03430919084",
+    "jazzcashAccountTitle": "Forex Trading Academy",
+    "contactEmail": "ali0343091@gmail.com",
+    "contactPhone": "03430919084",
+    "whatsappNumber": "03430919084",
+    "instructorName": "Forex Trading Academy Lead Instructor",
+    "instructorBio": "Professional currency trader with over 8 years in the financial markets, focusing on pure Price Action, Liquidity Order Blocks, and uncompromising Risk Management.",
+    "instructorAvatar": "",
+    "announcement": "Special Discount: Enroll now for only PKR 15,000 (Originally PKR 50,000). Limited seats per monthly batch."
+  },
+  "progress": {},
+  "auditLogs": [
+    {
+      "actorId": "admin-1",
+      "actorEmail": "ali0343091@gmail.com",
+      "action": "CLASS_CREATED",
+      "targetId": "class-1791751478360-smkc",
+      "details": "Created new class: \"Lesson 10: Live London Breakout Strategy\".",
+      "id": "log-1791751478360-czlhh",
+      "timestamp": "2026-10-11T20:44:38.360Z"
+    },
+    {
+      "actorId": "admin-1",
+      "actorEmail": "ali0343091@gmail.com",
+      "action": "PAYMENT_APPROVED",
+      "targetId": "pay-1791751458179-ho1o",
+      "details": "Admin reviewed payment #pay-1791751458179-ho1o for hamza@example.com: marked approved. ",
+      "id": "log-1791751467974-u0swx",
+      "timestamp": "2026-10-11T20:44:27.974Z"
+    },
+    {
+      "actorId": "student-1791751443069-gp26",
+      "actorEmail": "hamza@example.com",
+      "action": "PAYMENT_SUBMITTED",
+      "targetId": "pay-1791751458179-ho1o",
+      "details": "Submitted Easypaisa payment of PKR 15000 (Ref: TRX99283741).",
+      "id": "log-1791751458179-sv48j",
+      "timestamp": "2026-10-11T20:44:18.179Z"
+    },
+    {
+      "actorId": "student-1791751443069-gp26",
+      "actorEmail": "hamza@example.com",
+      "action": "STUDENT_REGISTERED",
+      "targetId": "student-1791751443069-gp26",
+      "details": "Student registered: Hamza Khan (hamza@example.com). Account status set to Pending.",
+      "id": "log-1791751443070-uaxy3",
+      "timestamp": "2026-10-11T20:44:03.070Z"
+    },
+    {
+      "id": "log-seed",
+      "timestamp": "2026-10-11T20:43:56.825Z",
+      "actorId": "system",
+      "actorEmail": "system",
+      "action": "ACADEMY_INITIALIZED",
+      "details": "Forex Trading Academy database initialized with secure admin account and structured curriculum."
+    }
+  ]
+}

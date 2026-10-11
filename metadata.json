@@ -1,0 +1,6 @@
+{
+  "name": "FOREX TRADING ACADEMY",
+  "description": "Learn. Practice. Trade with Discipline. Online forex trading academy with student enrollment, verified manual payments, private classes, and professional trader training.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
